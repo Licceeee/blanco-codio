@@ -1,7 +1,8 @@
 # blango
 
-Starting point for the Advanced Django course. This is the equivalent of the following command:
+Starting point for the Advanced Django course
 
-```bash
-$ django-admin.py startproject blango
+# in codio env:
+```bash 
+python3 manage.py runserver 0.0.0.0:8000
 ```
