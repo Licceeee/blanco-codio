@@ -2,8 +2,8 @@ import logging
 from django.shortcuts import render
 from django.utils import timezone
 from django.shortcuts import render, get_object_or_404, redirect
-from blog.forms import CommentForm
 
+from blog.forms import CommentForm
 from blog.models import Post
 
 logger = logging.getLogger(__name__)
