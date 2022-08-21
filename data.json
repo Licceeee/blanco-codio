@@ -1,0 +1,212 @@
+[
+  {
+    "model": "blanco_auth.User",
+    "pk": 1,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$Z2Ziejllc3BTR284SEFpUXp6QzFRNw$9G9AT1pnEq2+A/AolNE75g",
+      "last_login": "2022-06-30T08:44:26.083Z",
+      "is_superuser": true,
+      "username": "lice",
+      "first_name": "",
+      "last_name": "",
+      "email": "schonefeld.dev@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-02T11:09:04.961Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blanco_auth.User",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$W9NVWFOmCEVvMffqW9nWgv$yO9SVc2YqZa7gdhX1eDDOZb0UAohtpXGo/mAn2padOU=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "filipe",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-07T10:12:59.447Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "created_at": "2022-05-09T08:03:47.350Z",
+      "modified_at": "2022-05-09T08:03:47.350Z",
+      "creator": 1,
+      "content": "What a great post!",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "created_at": "2022-05-09T08:03:47.350Z",
+      "modified_at": "2022-05-09T08:03:47.350Z",
+      "creator": 1,
+      "content": "I like myself!",
+      "content_type": 4,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "created_at": "2022-05-09T08:08:55.889Z",
+      "modified_at": "2022-05-09T08:08:55.889Z",
+      "creator": 1,
+      "content": "amazing",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+      "created_at": "2022-05-09T08:14:12.877Z",
+      "modified_at": "2022-05-09T08:14:12.877Z",
+      "creator": 1,
+      "content": "puh dunno",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 5,
+    "fields": {
+      "created_at": "2022-05-31T22:33:42.264Z",
+      "modified_at": "2022-05-31T22:33:42.264Z",
+      "creator": 1,
+      "content": "jooo",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 6,
+    "fields": {
+      "created_at": "2022-05-31T22:33:59.980Z",
+      "modified_at": "2022-05-31T22:33:59.980Z",
+      "creator": 1,
+      "content": "jooo",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 7,
+    "fields": {
+      "created_at": "2022-05-31T22:34:21.559Z",
+      "modified_at": "2022-05-31T22:34:21.559Z",
+      "creator": 1,
+      "content": "test",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 8,
+    "fields": {
+      "created_at": "2022-05-31T22:39:00.748Z",
+      "modified_at": "2022-05-31T22:39:00.748Z",
+      "creator": 1,
+      "content": "xxx",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 9,
+    "fields": {
+      "created_at": "2022-05-31T22:42:59.092Z",
+      "modified_at": "2022-05-31T22:42:59.092Z",
+      "creator": 1,
+      "content": "kkk",
+      "content_type": 7,
+      "object_id": 1
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "wtf"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+      "value": "cats"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "published_at": "2022-05-02T11:18:56Z",
+      "title": "Test Title",
+      "slug": "test-title",
+      "summary": "yo",
+      "content": "yo",
+      "created_at": "2022-05-02T11:21:21.864Z",
+      "modified_at": "2022-05-02T11:21:21.864Z",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 2,
+      "published_at": "2022-05-07T10:13:03Z",
+      "title": "Filipes Post",
+      "slug": "filipes-post",
+      "summary": "yara yara yara",
+      "content": "miawwww",
+      "created_at": "2022-05-07T10:13:20.544Z",
+      "modified_at": "2022-05-07T10:13:20.544Z",
+      "tags": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 3,
+    "fields": {
+      "author": 2,
+      "published_at": "2022-05-08T08:05:39Z",
+      "title": "cats are annoying",
+      "slug": "cats-are-annoying",
+      "summary": "im annoyed from cats",
+      "content": "im annoyed from cats",
+      "created_at": "2022-05-08T08:06:03.894Z",
+      "modified_at": "2022-05-08T08:06:03.894Z",
+      "tags": [
+        2
+      ]
+    }
+  }
+  
+]

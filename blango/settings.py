@@ -44,10 +44,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blog.apps.BlogConfig',
     'crispy_forms',
     'crispy_bootstrap5',
     'debug_toolbar',
+    'blog.apps.BlogConfig',
+    'blanco_auth.apps.BlancoAuthConfig',
+    
 ]
 
 MIDDLEWARE = [
@@ -126,6 +128,8 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+
+AUTH_USER_MODEL = "blanco_auth.User"
 
 CRISPY_ALLOWED_TEMPLATE_PACKS = 'bootstrap5'
 CRISPY_TEMPLATE_PACK = 'bootstrap5'
